@@ -5,9 +5,9 @@
 //
 
 import { strict as assert } from 'assert';
-import { VirtualSizes } from '@bitgo/unpents';
 import * as should from 'should';
 const Q = require('q');
+const { VirtualSizes } = require('@bitgo/unspents');
 
 const BitGoJS = require('../../src/index');
 const TestBitGo = require('../lib/test_bitgo');
